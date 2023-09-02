@@ -10,6 +10,7 @@ public class poker {
         {
             cards[i] = sc.next();
         }
+        sc.close();
         int[] count = new int[5];
         for(int i=0;i<n;i++)
         {
